@@ -1,0 +1,82 @@
+:root{
+  --black: #151515;
+  --dark-purple: #301B3F;
+  --blue: #3C415C;
+  --light-pink: #B4A5A5;
+}
+
+html{
+  font-family: "Inter";
+}
+
+.img-class{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px 10px 0 0;
+}
+
+.container{
+  border: 1px solid var(--black);
+  width: 270px;
+  margin: 0 auto;
+  background-color: var(--black);
+  border-radius: 10px;
+}
+
+.details-cont{
+  text-align: center;
+}
+
+.head-1{
+  color: var(--light-pink);
+}
+
+.job-title{
+  color: #e9ecef;
+  margin-top: -20px;
+  font-size: 13px;
+}
+
+small{
+  color: var(--light-pink);
+}
+
+.email, .linkedin{
+  width: 10px;
+}
+
+.linkedin-btn{
+  margin-left: 50px;
+  text-align: center;
+}
+
+.email-btn, .linkedin-btn{
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 90px;
+}
+
+.main-info{
+  color: white;
+  margin-left: 15px;
+  font-size: 12px;
+  margin-right: 15px;
+}
+
+.about, .interests{
+  margin-bottom: -5px;
+}
+
+footer{
+  background-color: var(--dark-purple);
+  height: 4rem;
+  border-radius: 0 0 10px 10px;
+  
+}
+
+footer img{
+  width: 32px;
+  margin-top: 15px;
+  margin-left: 27px;
+}
